@@ -1,14 +1,12 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "colleagues": [
+    { "id": 1, "name": "Neil" },
+    { "id": 2, "name": "Jems" },
+    { "id": 3, "name": "Flinn" }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "leave": [
+    { "id": 1, "total": 15, "used": 5 ,"colleaguesId": 1 },
+    { "id": 2, "total": 15, "used": 10 ,"colleaguesId": 1 },
+    { "id": 3, "total": 15, "used": 16 ,"colleaguesId": 1 }
+  ]
 }
